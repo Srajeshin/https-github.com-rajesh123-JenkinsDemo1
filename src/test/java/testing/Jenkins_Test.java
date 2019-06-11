@@ -11,7 +11,7 @@ public class Jenkins_Test {
 	WebDriver driver;
   @Test
   public void LoginTest() {
-	  driver.findElement(By.name("username")).sendKeys("mansoor");
+	  driver.findElement(By.name("userName")).sendKeys("mansoor");
 		 driver.findElement(By.name("password")).sendKeys("mansoor");
 		 driver.findElement(By.name("login")).click();
 		    System.out.println("title after login is "+driver.getTitle());
